@@ -62,6 +62,7 @@ kubectl port-forward service/wm-msr-svc -n wm-msr 5555
 Login Admin ID : Administrator
 default PWD : manage 
 
+![webMethodes Admin Portal](/webmethods/images/webmethodes-admin-ui.png "webMethodes Admin Portal")
 
 
 To find out the current Azure Kubernetes Service (AKS) context and to switch to another AKS cluster context using kubectl, you can use the following commands. First, you'll need to ensure you have the Azure CLI and kubectl installed and configured.

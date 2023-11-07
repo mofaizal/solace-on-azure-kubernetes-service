@@ -5,7 +5,7 @@ In today's dynamic and fast-paced digital landscape, businesses require robust a
 
 ## Deployment Process
 
-Create an Azure Kubernetes Service (AKS) Cluster: You can Terraform script to create an AKS cluster.
+Create an Azure Kubernetes Service (AKS) Cluster: Use Terraform script provide in this repo to create an AKS cluster.
 
 :warning: These architectures are offered without any warranty or support and are not officially endorsed by Microsoft. They are intended for testing and experimentation purposes only. Users are encouraged to use, fork, and customize them as they see fit.
 
@@ -18,7 +18,7 @@ Create an Azure Kubernetes Service (AKS) Cluster: You can Terraform script to cr
 
 ![Solace PubSub+ Software Event Brokeron Azure Kubernetes Service reference architecture](images/solacepubsub.png)
 
-## Solace PubSub+ Software Event Broker
+## 1. Solace PubSub+ Software Event Broker
 ### What is Solace PubSub+ Software Event Broker?
 Solace PubSub+ Software Event Broker is a powerful event broker that provides a real-time event distribution system for reliable and secure data movement. It is designed to enable efficient communication and data distribution across various components of your architecture.
 
@@ -31,7 +31,7 @@ The primary role of Solace PubSub+ Software Event Broker includes:
 
 *Event-Driven Architecture:* It supports event-driven architectures, enabling microservices to react to real-time events, improving responsiveness, and enabling rapid scaling.
 
-## webMethods Microservices Runtime from SoftwareAG
+## 2. webMethods Microservices Runtime from SoftwareAG
 ### What is webMethods Microservices Runtime?
 webMethods Microservices Runtime is a versatile microservices platform from SoftwareAG that enables you to build, deploy, and manage microservices with ease. It is designed to help businesses create scalable and efficient microservices architectures.
 
