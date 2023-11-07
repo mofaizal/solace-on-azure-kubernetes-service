@@ -10,14 +10,14 @@ Create an Azure Kubernetes Service (AKS) Cluster: Use Terraform script provide i
 :warning: These architectures are offered without any warranty or support and are not officially endorsed by Microsoft. They are intended for testing and experimentation purposes only. Users are encouraged to use, fork, and customize them as they see fit.
 
 
+:point_right: to Deploy [Solace PubSub+ Software Event Broker](/solace/README.md)
+
+![Solace PubSub+ Software Event Brokeron Azure Kubernetes Service reference architecture](images/solacepubsub.png)
+
 :point_right: to Deploy [webMethods Microservices Runtime](/webmethods/README.md)
 
 ![webMethods Microservices Runtime on Azure Kubernetes Service reference architecture](images/webmethodes.png)
 
-
-:point_right: to Deploy [Solace PubSub+ Software Event Broker](/solace/README.md)
-
-![Solace PubSub+ Software Event Brokeron Azure Kubernetes Service reference architecture](images/solacepubsub.png)
 
 Note : Database and Privateendpoint not provision part of this script.
 
