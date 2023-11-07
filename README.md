@@ -14,9 +14,12 @@ Create an Azure Kubernetes Service (AKS) Cluster: Use Terraform script provide i
 
 ![webMethods Microservices Runtime on Azure Kubernetes Service reference architecture](images/webmethodes.png)
 
+
 :point_right: to Deploy [Solace PubSub+ Software Event Broker](/solace/README.md)
 
 ![Solace PubSub+ Software Event Brokeron Azure Kubernetes Service reference architecture](images/solacepubsub.png)
+
+Note : Database and Privateendpoint not provision part of this script.
 
 ## 1. Solace PubSub+ Software Event Broker
 ### What is Solace PubSub+ Software Event Broker?
