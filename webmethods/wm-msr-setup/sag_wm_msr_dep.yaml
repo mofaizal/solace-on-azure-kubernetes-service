@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wm-msr-deployment
+  namespace: wm-msr
+  labels:
+    app: wm-msr
+spec:
+  selector:
+    matchLabels:
+      app: wm-msr
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: wm-msr
+    spec:
+      hostname: wm-msr
+      containers:
+      - name: wm-msr
+        image: softwareag/webmethods-microservicesruntime:10.15
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 5555
+          name: wm-msr-port
+      imagePullSecrets:
+      - name: regcred
+      
